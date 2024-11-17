@@ -1,0 +1,170 @@
+.product-section {
+  margin-bottom: 100px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.product-grid .product-title,
+.product-grid .product-prise {
+  font-size: 24px;
+}
+
+#clothing-size {
+  background: #fff;
+  width: 100%;
+  height: 50px;
+  border: 2px solid #1b191a;
+  outline: none;
+}
+
+.product-type {
+  background: #f5ebff;
+  padding: 12px;
+  width: 285px;
+}
+.product-type .product-menu {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.product-type .product-menu div {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.product-type .product-menu div:last-child {
+  margin-bottom: 20px;
+}
+.product-type .product-type-btn {
+  background: #faf7f5;
+  width: 100%;
+  padding: 8px;
+}
+
+.product-type-block {
+  display: none;
+}
+
+.catalog-footer {
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
+
+.left {
+  display: grid;
+  width: 590px;
+  height: 600px;
+  /* Висота контейнера */
+  gap: 20px;
+  /* Відступ між блоками */
+  grid-template-columns: 1.1fr 1fr 1fr 1fr 1fr;
+  /* 5 колонок */
+  grid-template-rows: 50px repeat(6, 1fr);
+  /* Висота першого ряду 50px */
+  grid-template-areas: "back-btn back-btn active-image active-image active-image" "image-1 image-3 active-image active-image active-image" "image-1 image-3 active-image active-image active-image" "image-1 image-4 active-image active-image active-image" "image-2 image-4 active-image active-image active-image" "image-2 image-5 active-image active-image active-image" "image-2 image-5 active-image active-image active-image";
+}
+.left img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.back-btn {
+  grid-area: back-btn;
+  height: 50px;
+  /* Висота back-btn */
+}
+
+.image-2 {
+  grid-area: image-2;
+}
+
+.image-1 {
+  grid-area: image-1;
+}
+
+.image-3 {
+  grid-area: image-3;
+}
+
+.image-4 {
+  grid-area: image-4;
+}
+
+.image-5 {
+  grid-area: image-5;
+}
+
+.active-image {
+  grid-area: active-image;
+}
+
+.right {
+  background: #f5ebff;
+  padding: 20px;
+}
+
+.model {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+.model .size-guide {
+  text-decoration: underline;
+  color: #1b191a;
+}
+
+.info-item {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.model-description .model-info {
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.model-description .info-description {
+  display: none;
+}
+
+.add-shopping-block {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 20px 0;
+}
+.add-shopping-block .add-shopping-btn {
+  height: 40px;
+  width: 100%;
+}
+.add-shopping-block .heart {
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.back-btn {
+  position: relative;
+  width: 100%;
+}
+
+.back-link {
+  color: #1b191a;
+  background: #000;
+  position: absolute;
+}
+
+.fa-arrow-left {
+  margin-right: 12px;
+}

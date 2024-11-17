@@ -1,0 +1,1 @@
+.product-catalog .filter-block.active, .our-product .filter-block.active

@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__container">
+        <div class="menu-grid">
+          <div class="menu green box-shadow">
+            <div class="btn-block">
+              <button class="menu-btn" id="menu-btn">menu</button>
+              <button class="search" id="search">search</button>
+            </div>
+          </div>
+          <div class="heading orange box-shadow">
+            <button class="for her box-shadow">for her</button>
+            <h1>pull&bear</h1>
+            <button class="for him box-shadow">for him</button>
+          </div>
+          <div class="menu blue box-shadow">
+            <div class="btn-block">
+              <button class="account" id="account">account</button>
+              <button class="shopping-bag" id="shopping-bag">shopping bag <span></span></button>
+            </div>
+          </div>
+          <div class="hero-item box-shadow" id="hero-item-1"></div>
+          <div class="hero-item box-shadow" id="hero-item-2">
+            <div class="hero-block">
+              <h2 class="hero-title">glowing in the dark</h2>
+              <p class="hero-subtitle">night falls and the city gets darker. you ain't sleeping yet.
+                <strong>get out there!</strong>
+              </p>
+              <button class="collection box-shadow" id="collection">Shop collection</button>
+            </div>
+          </div>
+          <div class="hero-item box-shadow" id="hero-item-3"></div>
+        </div>
+
+        <!-- menu block start -->
+        
+      </div>
+      <div class="menu-active box-shadow">
+        <button class="closed box-shadow"><i class="fa-solid fa-xmark"></i></button>
+        <p class="menu-title">menu</p>
+        <ul class="menu-block">
+          <li class="menu-list box-shadow">NEW ARRIVALS</li>
+          <li class="menu-list box-shadow active">CLOTHING</li>
+          <li class="menu-list box-shadow">SHOES</li>
+          <li class="menu-list box-shadow">BAGS</li>
+          <li class="menu-list box-shadow">ACCESSORIES</li>
+          <li class="menu-list box-shadow">ONLINE EXCLUSIVES</li>
+        </ul>
+        <ul class="menu-block menu-block-list">
+          <li class="menu-list box-shadow">JACKETS & COATS</li>
+          <li class="menu-list box-shadow">KNITWEAR</li>
+          <li class="menu-list box-shadow">JEANS</li>
+          <li class="menu-list box-shadow">PANTS</li>
+          <li class="menu-list box-shadow">SWEATSHIRTS & HOODIES</li>
+          <li class="menu-list box-shadow">T-SHIRTS</li>
+          <li class="menu-list box-shadow">TOPS & BODYSUITS</li>
+          <li class="menu-list box-shadow">DRESSES</li>
+          <li class="menu-list box-shadow">SKIRTS & SHORTS</li>
+          <li class="menu-list box-shadow">TRENCH</li>
+          <li class="menu-list box-shadow">VESTS</li>
+          <li class="menu-list box-shadow">BLAZERS</li>
+          <li class="menu-list box-shadow">SUITS</li>
+          <li class="menu-list box-shadow">SHIRTS & BLOUSES</li>
+          <li class="menu-list box-shadow">OVERALLS & JUMPSUITS</li>
+          <li class="menu-list box-shadow">SWEATSUIT</li>
+          <li class="menu-list box-shadow">BEST SELLERS</li>
+        </ul>
+        <ul class="menu-block menu-block-list">
+          <li class="menu-list box-shadow">PROMOTIONS</li>
+          <li class="menu-list box-shadow">PARTYWEAR</li>
+          <li class="menu-list box-shadow">TOTAL LOOK</li>
+          <li class="menu-list box-shadow">PACKS</li>
+        </ul>
+      </div>
+      <!-- menu block end -->
+
+      <!-- account block start -->
+      <div class="account-login box-shadow">
+        <button class="close box-shadow" id="accout-login-btn">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <p class="menu-title">menu</p>
+        <p class="data-entry">
+          enter your telephone number or email
+        </p>
+        <form class="phone-input">
+          <input type="text" class="phone-number" placeholder="Telephone / Email">
+          <label for="" class="input-label">We will use the phone numper/emailaddress provided to send the
+            verefication code</label>
+          <label class="check-label">
+            <input type="checkbox" class="input">
+            <span class="custom-checkbox"></span>
+            Stay logged in
+          </label>
+        </form>
+        <button class="next box-shadow" id="next">next</button>
+        <p class="continue">or continue with</p>
+        <button class="social-login box-shadow" id="apple">apple</button>
+        <button class="social-login box-shadow" id="facebook">facebook</button>
+        <p class="login-description">
+          By loggin/sging in with my social login. I agree to connect my account in accordance with the <a href=""
+            class="policy">Privacy Policy</a>
+        </p>
+      </div>
+      <!-- account block end -->
+
+      <!-- shopping bar start -->
+
+      <div class="shopping-bag-block box-shadow">
+        <button class="closed closed-shopping box-shadow" id="closed-shopping-bag">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <p class="menu-title">shopping bag <span>(0)</span></p>
+        <div class="semicircle-bag">
+          <div class="semicircle"></div>
+        </div>
+        <div class="shopping-text">
+          <p class="shopping-title">your shopping bag is empty</p>
+          <p class="shopping-sub-title">Check if there are any products on your wishlist and snatch them up before
+            they’re gone!</p>
+        </div>
+        <button class="wishlist box-shadow">View wishlist</button>
+      </div>
+
+      <div class="search-bar box-shadow">
+        <button class="closed box-shadow" id="search-closed-btn">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <p class="menu-title">search</p>
+        <div class="form-control">
+          <input type="value" required="" class="box-shadow">
+          <label>
+            <span style="transition-delay:0ms">S</span>
+            <span style="transition-delay:50ms">E</span>
+            <span style="transition-delay:100ms">A</span>
+            <span style="transition-delay:150ms">R</span>
+            <span style="transition-delay:200ms">C</span>
+            <span style="transition-delay:250ms">H</span>
+          </label>
+        </div>
+        <p class="data-entry">
+          your recent searches <a href="" class="view-all">View all</a>
+        </p>
+        <div class="search-catalog">
+          <div class="product-card box-shadow">
+            <div class="new-arrivals">
+              <h2>New Arrivals</h2>
+              <p>Night shimmer collection</p>
+              <a href="" class="arrivals-link">Shop all</a>
+            </div>
+            <img src="https://www.royalandreese.com/cdn/shop/files/bc131c89-3c29-4d65-b145-c4dd49d339d7-Max_600x.jpg?v=1731517177" alt="Product Image" class="product-image">
+            <div class="product-info">
+              <h2>Cropped Straight Fit Metallic Pants</h2>
+              <p>$49.90</p>
+            </div>
+          </div>
+          <div class="product-card box-shadow">
+            <div class="new-arrivals">
+              <h2>New Arrivals</h2>
+              <p>Night shimmer collection</p>
+              <a href="" class="arrivals-link">Shop all</a>
+            </div>
+            <img src="https://www.royalandreese.com/cdn/shop/files/2b538bcf-a0eb-456e-8ccf-85342d1407db-Max_400x.jpg?v=1731431441" alt="Product Image" class="product-image">
+            <div class="product-info">
+              <h2>Cropped Straight Fit Metallic Pants</h2>
+              <p>$49.90</p>
+            </div>
+          </div>
+          <div class="product-card box-shadow">
+            <div class="new-arrivals">
+              <h2>New Arrivals</h2>
+              <p>Night shimmer collection</p>
+              <a href="" class="arrivals-link">Shop all</a>
+            </div>
+            <img src="https://www.royalandreese.com/cdn/shop/files/68adf481-fe02-4c47-a0ce-d0dacf5f083c-Max_600x.jpg?v=1727203677" alt="Product Image" class="product-image">
+            <div class="product-info">
+              <h2>Cropped Straight Fit Metallic Pants</h2>
+              <p>$49.90</p>
+            </div>
+          </div>
+          <div class="product-card box-shadow">
+            <div class="new-arrivals">
+              <h2>New Arrivals</h2>
+              <p>Night shimmer collection</p>
+              <a href="" class="arrivals-link">Shop all</a>
+            </div>
+            <img src="https://www.royalandreese.com/cdn/shop/files/070146c9-06c9-40ec-b9c3-ad5905bb69bd-Max_400x.jpg?v=1727203710" alt="Product Image" class="product-image">
+            <div class="product-info">
+              <h2>Cropped Straight Fit Metallic Pants</h2>
+              <p>$49.90</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+    <main class="main">
+      <section class="catalog">
+        <div class="catalog__container">
+          <div class="catalog-grid">
+            <div class="product-card box-shadow">
+              <div class="new-arrivals">
+                <h2>New Arrivals</h2>
+                <p>Night shimmer collection</p>
+                <a href="" class="arrivals-link">Shop all</a>
+              </div>
+              <img src="https://www.royalandreese.com/cdn/shop/files/29e4bc63-dd48-490c-8154-f12ec2421fdd-Max_400x.jpg?v=1730996477" alt="Product Image" class="product-image">
+              <div class="product-info">
+                <h2>Cropped Straight Fit Metallic Pants</h2>
+                <p>$49.90</p>
+              </div>
+            </div>
+            <div class="product-card box-shadow">
+              <div class="new-arrivals">
+                <h2>New Arrivals</h2>
+                <p>Night shimmer collection</p>
+                <a href="" class="arrivals-link">Shop all</a>
+              </div>
+              <img src="https://www.royalandreese.com/cdn/shop/files/c9f580bb-8b30-4ffc-a552-a75e7b5d62db-Max_600x.jpg?v=1731071204 " alt="Product Image" class="product-image">
+              <div class="product-info">
+                <h2>Cropped Straight Fit Metallic Pants</h2>
+                <p>$49.90</p>
+              </div>
+            </div>
+            <div class="product-card box-shadow">
+              <div class="new-arrivals">
+                <h2>New Arrivals</h2>
+                <p>Night shimmer collection</p>
+                <a href="" class="arrivals-link">Shop all</a>
+              </div>
+              <img src="https://www.royalandreese.com/cdn/shop/files/007f3a24-0da0-48d4-9090-fdd8bd5be246-Max_600x.jpg?v=1731071189" alt="Product Image" class="product-image">
+              <div class="product-info">
+                <h2>Cropped Straight Fit Metallic Pants</h2>
+                <p>$49.90</p>
+              </div>
+            </div>
+            <div class="product-card box-shadow">
+              <div class="new-arrivals">
+                <h2>New Arrivals</h2>
+                <p>Night shimmer collection</p>
+                <a href="" class="arrivals-link">Shop all</a>
+              </div>
+              <img src="https://www.royalandreese.com/cdn/shop/files/2f698263-b07e-4ac4-b8bd-4c1ed2a157a5-Max_400x.jpg?v=1727521871" alt="Product Image" class="product-image">
+              <div class="product-info">
+                <h2>Cropped Straight Fit Metallic Pants</h2>
+                <p>$49.90</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="promotion">
+        <div class="promotion__container">
+          <div class="promotion-block box-shadow">
+            <p class="promotion-title">promotions</p>
+            <p class="sales">up to -40%</p>
+            <p class="select-item">On selected items</p>
+            <button class="collection box-shadow">Shop all</button>
+          </div>
+        </div>
+      </div>
+      <section class="catalog exclusive">
+        <div class="catalog__container">
+          <div class="catalog-grid">
+            <div class="product-card box-shadow">
+              <div class="new-arrivals">
+                <h2>New Arrivals</h2>
+                <p>Night shimmer collection</p>
+                <a href="" class="arrivals-link">Shop all</a>
+              </div>
+              <img src="https://www.royalandreese.com/cdn/shop/files/a90d1498-4d6a-43d2-a2db-01392e5f206c-Max_600x.jpg?v=1719842664" alt="Product Image" class="product-image">
+              <div class="product-info">
+                <h2>Cropped Straight Fit Metallic Pants</h2>
+                <p>$49.90</p>
+              </div>
+            </div>
+            <div class="product-card box-shadow">
+              <div class="new-arrivals">
+                <h2>New Arrivals</h2>
+                <p>Night shimmer collection</p>
+                <a href="" class="arrivals-link">Shop all</a>
+              </div>
+              <img src="https://www.royalandreese.com/cdn/shop/files/ab2d2b66-33f0-4121-80c5-06c33b9ea1d5-Max_400x.jpg?v=1719842624" alt="Product Image" class="product-image">
+              <div class="product-info">
+                <h2>Cropped Straight Fit Metallic Pants</h2>
+                <p>$49.90</p>
+              </div>
+            </div>
+            <div class="product-card box-shadow">
+              <div class="new-arrivals">
+                <h2>New Arrivals</h2>
+                <p>Night shimmer collection</p>
+                <a href="" class="arrivals-link">Shop all</a>
+              </div>
+              <img src="https://www.royalandreese.com/cdn/shop/files/3c3e7462-a1e8-4579-bb2d-83c9d612b0ad-Max_400x.jpg?v=1719842671" alt="Product Image" class="product-image">
+              <div class="product-info">
+                <h2>Cropped Straight Fit Metallic Pants</h2>
+                <p>$49.90</p>
+              </div>
+            </div>
+            <div class="product-card box-shadow">
+              <div class="new-arrivals">
+                <h2>New Arrivals</h2>
+                <p>Night shimmer collection</p>
+                <a href="" class="arrivals-link">Shop all</a>
+              </div>
+              <img src="https://www.royalandreese.com/cdn/shop/products/df103e7d-f2e2-4d47-8748-136e7ab22b6a-Min_400x.jpg?v=1701191916" alt="Product Image" class="product-image">
+              <div class="product-info">
+                <h2>Cropped Straight Fit Metallic Pants</h2>
+                <p>$49.90</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="discount">
+        <div class="discount__container">
+          <div class="discount-block box-shadow">
+            <p class="discount-title">ON TREND AND WITH A 10% DISCOUNT</p>
+            <p class="discount-subtitle">Subscribe to our newsletter to get the latest offers & promotions</p>
+            <form action="" class="discount-form">
+              <input type="text" class="discount-input box-shadow" placeholder="Type your Email">
+              <button class="discount-btn box-shadow">Submit</button>
+              <p class="discount-description">Proceeding I confirm that I have read and understand the information on
+                the use of my personal data explained in the <a href="" class="policy">Privacy Policy</a>, and I agree
+                to receive customized commercial communications from Pull&Bear by email and other means.</p>
+              <a href="" class="discount-link">I want to unsubscribe</a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+
+
+    <footer class="footer">
+      <div class="footer__container">
+        <ul class="footer-menu-grid">
+          <li class="footer-menu-list community box-shadow">
+            <div class="communuti-block">
+              <a href="" class="logo">pull&beare</a>
+              <p>An ever young community.</p>
+            </div>
+            <ul class="social">
+              <li class="social-list">
+                <a href="" class="social-link"><i class="fa-brands fa-tiktok"></i></a>
+              </li>
+              <li class="social-list">
+                <a href="" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+              <li class="social-list">
+                <a href="" class="social-link"><i class="fa-brands fa-facebook-f"></i></a>
+              </li>
+              <li class="social-list">
+                <a href="" class="social-link"><i class="fa-brands fa-pinterest-p"></i></a>
+              </li>
+            </ul>
+          </li>
+          <li class="footer-menu-list help box-shadow">
+            <h3 class="footer-title">HELP</h3>
+            <ul class="menu-item">
+              <li>
+                <a href="" class="menu-link">Frequently asked questions</a>
+              </li>
+              <li>
+                <a href="" class="menu-link">My orders</a>
+              </li>
+              <li>
+                <a href="" class="menu-link">How to return items</a>
+              </li>
+              <li>
+                <a href="" class="menu-link">Processing a return</a>
+              </li>
+              <li>
+                <a href="" class="menu-link">Delivery</a>
+              </li>
+              <li>
+                <a href="" class="menu-link">Language & Region</a>
+              </li>
+            </ul>
+          </li>
+          <li class="footer-menu-list business box-shadow">
+            <h3 class="footer-title">BUSINESS</h3>
+            <ul class="menu-item">
+              <li>
+                <a href="" class="menu-link">About us</a>
+              </li>
+              <li>
+                <a href="" class="menu-link">Store locator</a>
+              </li>
+              <li>
+                <a href="" class="menu-link">Franchise with us</a>
+              </li>
+              <li>
+                <a href="" class="menu-link">Work with us</a>
+              </li>
+              <li>
+                <a href="" class="menu-link">Interest-based advertising</a>
+              </li>
+              <li>
+                <a href="" class="menu-link">California act modern slavery</a>
+              </li>
+            </ul>
+          </li>
+          <li class="footer-menu-list privacy box-shadow">
+            <h3 class="footer-title">PRIVACY</h3>
+            <ul class="menu-item">
+              <li>
+                <a href="" class="menu-link">Privacy policy</a>
+              </li>
+              <li>
+                <a href="" class="menu-link">California transparency act</a>
+              </li>
+              <li>
+                <a href="" class="menu-link">Accessibility statement</a>
+              </li>
+              <li>
+                <a href="" class="menu-link">Purchase conditions</a>
+              </li>
+              <li>
+                <a href="" class="menu-link">Cookies & Ad preference</a>
+              </li>
+              <li>
+                <a href="" class="menu-link">Don’t sell or share my personal information</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/menu.js"></script>
+</body>
+</html>
